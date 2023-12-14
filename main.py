@@ -1,1 +1,7 @@
-print("Hello I am Artin the king")
+import googlesearch
+
+results = googlesearch.search("hello")
+
+
+for item in results:
+    print("item", item)
